@@ -7,7 +7,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  ["Honda","Toyota", "Ford","Chevy"]
+  ["Honda"]
   add_element_to_end_of_array << "Nissan"
   puts add_element_to_end_of_array.inspect
 end
