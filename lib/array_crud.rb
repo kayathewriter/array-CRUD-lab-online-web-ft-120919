@@ -9,7 +9,7 @@ end
 def add_element_to_end_of_array(array, element)
   add_element_to_end_of_array = create_an_array
   create_an_array << Nissan
-  puts 
+  puts create_an_array.inspect
 end
 
 def add_element_to_start_of_array(array, element)
