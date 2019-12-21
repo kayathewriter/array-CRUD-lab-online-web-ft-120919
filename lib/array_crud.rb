@@ -1,13 +1,14 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  ["Honda", "Toyota", "Ford", "Chevy"]
 end
 
-def add_element_to_end_of_array(array, element)
-  
+def add_element_to_end_of_array = ["array","element"]
+  add_element_to_end_of_array << "computers"
+  puts add_element_to_end_of_array.inspect
 end
 
 def add_element_to_start_of_array(array, element)
