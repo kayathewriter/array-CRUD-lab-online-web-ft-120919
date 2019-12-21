@@ -6,7 +6,7 @@ def create_an_array
   ["Honda", "Toyota", "Ford", "Chevy"]
 end
 
-def add_element_to_end_of_array(array, element)
+def add_element_to_end_of_array
   ["Honda"]
   add_element_to_end_of_array << "Nissan"
   puts add_element_to_end_of_array.inspect
